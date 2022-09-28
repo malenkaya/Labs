@@ -25,3 +25,15 @@ for i in range(1, n + 1):
 for i in range(n - 1):
     sum -= int(input())
 print(sum)
+
+#5
+import random
+ 
+r1 = random.randint(0, 10)
+print("Random number between 0 and 10 is % s" % (r1))
+ 
+r2 = random.randint(-10, -1)
+print("Random number between -10 and -1 is % d" % (r2))
+ 
+r3 = random.randint(-5, 5)
+print("Random number between -5 and 5 is % d" % (r3))
