@@ -21,3 +21,37 @@ print(int(a) + int(b))
 #3
 s = 'Dilnaz'
 print([ord(c) for c in s])
+
+#4
+print(len('dilnaz'))
+
+#5
+S = 'dilnaz'
+print(S[0])
+print(S[2])
+print(S[-2])
+
+#6
+s = 'dilnaz'
+print(s[1:3])
+
+#7
+welcome = "Hello world! Goodbye world!"
+index = welcome.find("wor")
+print(index)
+
+#8
+phone = "+1-234-567-89-10"
+edited_phone = phone.replace("-", " ")
+print(edited_phone)
+
+#9
+word = "hello"
+joined_word = "|".join(word)
+print(joined_word)
+
+#10
+word = "python"
+print(word.capitalize())
+
+
